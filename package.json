@@ -1,0 +1,19 @@
+{
+  "name": "matte",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Node-based compositor in the browser: keying, grading, light wrap, keyframes and scopes on a WebGL2 linear-light pipeline.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7",
+    "vitest": "^5.1.0"
+  }
+}
